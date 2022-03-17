@@ -4,6 +4,7 @@ import Registration from './Pages/Registration';
 import '../src/Assets/Responsive.css'
 import { Route, Routes } from 'react-router-dom';
 import ForgotPassword from './Pages/ForgotPassword';
+import ResetPassword from './Pages/ResetPassword';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Registration />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
 
     </div>

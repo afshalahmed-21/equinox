@@ -30,14 +30,32 @@ input::placeholder {
     padding: 0.6rem 0.75rem !important;
 }
 
+input {
+    border-radius: 0.25rem !important;
+}
+
+.form-control:focus,
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 0 0.1rem rgb(255, 255, 255, 0.3) !important;
+    background-color: #242633 !important;
+    border: #242633 !important;
+    color: #989898;
+    padding: 0.6rem 0.75rem !important;
+    border-radius: 5px;
+}
+
 .primary {
     background: #7060FF !important;
     border: 1px solid transparent !important;
     transition: 1s;
+    height: 52px;
+    font-size: 16px;
+    border-radius: 0.25rem;
 }
 
 .primary:hover {
-    background: transparent !important;
+    background: #4231d9 !important;
     border: 1px solid #7060FF !important;
     transition: 1s;
 }
@@ -48,6 +66,10 @@ input::placeholder {
     border: 1px solid transparent !important;
     transition: 1s;
     text-decoration: none;
+    height: 52px;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    align-items: center;
 }
 
 .secondary:hover {
@@ -55,6 +77,20 @@ input::placeholder {
     color: #fff;
     border: 1px solid #3D435C !important;
     transition: 1s;
+}
+
+.was-validated :invalid~.invalid-feedback {
+    position: absolute;
+    text-align: right;
+    width: 45%;
+    z-index: 99;
+    top: 10px;
+    margin: auto;
+    right: 35px;
+}
+
+.text-muted {
+    color: #BCBCBC !important;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -83,14 +119,37 @@ input::placeholder {
 .nav-tabs .nav-link {
     border: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
 }
 
 .nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover,
-.formTabs .nav-link.active {
+.nav-tabs .nav-link:hover {
     border: none;
-    border-bottom: 2px solid #7060FF !important;
-    color: #7060FF;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-weight: 500;
+}
+
+.formTabs .nav-link.active {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+}
+
+.formTabs .nav-link.active::after {
+    content: '';
+    border: none;
+    background: #7060FF !important;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+}
+
+form.form {
+    margin: 50px auto 20px;
 }
 
 .form-check-input:checked[type=checkbox] {

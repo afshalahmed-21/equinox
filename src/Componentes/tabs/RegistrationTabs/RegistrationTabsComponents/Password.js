@@ -1,8 +1,9 @@
 import { faEye } from '@fortawesome/fontawesome-free-regular'
-import { faEyeSlash, faLock } from '@fortawesome/fontawesome-free-solid'
+import { faEyeSlash } from '@fortawesome/fontawesome-free-solid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
-import { FormControl, InputGroup } from 'react-bootstrap'
+import { Form, FormControl, InputGroup } from 'react-bootstrap'
+import lockIcon from '../../../../Assets/RegistrationPageImages/icon/bx-lock.png'
 
 const Password = () => {
 
@@ -15,14 +16,14 @@ const Password = () => {
         <>
             <InputGroup className="mb-3">
                 <InputGroup.Text>
-                    <FontAwesomeIcon icon={faLock} />
+                    <img className='w-100 ps-4' src={lockIcon} alt='lockIcon' />
                 </InputGroup.Text>
                 <FormControl
                     placeholder="Password"
                     type={passwordShown ? "text" : "password"}
                 />
                 <InputGroup.Text id="basic-addon2" onClick={togglePassword}>
-                    <FontAwesomeIcon icon={!passwordShown ? faEye : faEyeSlash} />
+                    <FontAwesomeIcon className='pe-4' icon={!passwordShown ? faEye : faEyeSlash} />
                 </InputGroup.Text>
             </InputGroup>
         </>
