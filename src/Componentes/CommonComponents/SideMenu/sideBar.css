@@ -1,0 +1,41 @@
+body {
+    background-image: url('../../../Assets/Dashboard/mainBackground.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sideBar {
+    background-color: var(--sideBarBackground);
+    height: 100vh;
+}
+
+.profileCustamization button:hover,
+.profileCustamization button {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.ThisMonthsUploads h6,
+.ThisMonthsUploads span {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.menuList li a {
+    color: var(--dashboardListLinkColor);
+    text-decoration: none;
+    margin: auto;
+    font-weight: 600;
+    display: block;
+}
+
+.menuList ul li a img {
+    width: 100%;
+    max-width: 20px;
+    height: 100%;
+    max-height: 15px;
+    object-fit: contain;
+}

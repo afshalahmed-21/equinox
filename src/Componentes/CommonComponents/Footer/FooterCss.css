@@ -1,0 +1,100 @@
+.footer {
+    background: var(--FooterBg);
+    padding: 60px 10px;
+}
+
+.footerLogo a {
+    font-size: 24px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.footerLogo p {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    color: var(--text-muted);
+}
+
+.footerLogo h6 {
+    font-size: 0.9rem;
+}
+
+.footerUl h5 {
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+}
+
+.footerUl ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footerUl ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 3px;
+    display: block;
+    font-size: 0.9rem;
+    transition: 1s;
+}
+
+.footerUl ul li a:hover {
+    padding-left: 4px;
+    transition: 1s;
+}
+
+a.projects {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: 2px solid var(--text-muted);
+    padding: 12px 10px;
+    font-weight: 500;
+    display: block;
+    width: fit-content;
+    line-height: 1.2;
+}
+
+a.visitWebSite {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-decoration: none;
+    line-height: 1.3;
+    font-weight: 500;
+    display: block;
+    padding: 12px 5px;
+}
+
+.footerUl ul li p {
+    margin-bottom: 0;
+}
+
+.discordServer {
+    color: var(--primary) !important;
+    text-decoration: underline !important;
+}
+
+.socialMediaLinks ul {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.socialMediaLinks ul li a {
+    font-size: 1.2rem;
+    padding: 0;
+    margin-right: 15px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.socialMediaLinks ul li a svg {
+    margin: 0 !important;
+}
+
+.socialMediaLinks ul li a:hover {
+    padding-left: 0;
+    opacity: 1;
+    transition: 1s;
+}
