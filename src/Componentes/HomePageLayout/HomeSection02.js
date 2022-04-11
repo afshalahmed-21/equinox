@@ -1,8 +1,7 @@
 import React from 'react'
 import { Col, Container } from 'react-bootstrap'
 import { Zoom } from 'react-reveal'
-import HomePageSection02Slider from '../Sliders/HomePageSlide/HomePageSection02Slider'
-
+import HomePageSection02Slider from '../sliders/HomePageSlide/HomePageSection02Slider'
 const HomeSection02 = () => {
     return (
         <div id='HomeSection02'>

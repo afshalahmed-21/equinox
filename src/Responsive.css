@@ -2,6 +2,7 @@
     .mainBannerImg03 {
         top: -60px !important;
     }
+
     .mainBannerImg01 {
         right: 70px !important;
         bottom: -210px !important;
@@ -12,32 +13,41 @@
     .mainBannerImg03 {
         top: 70px !important;
     }
+
     .mainBannerImg02 {
         top: -20px !important;
         bottom: auto !important;
     }
+
     .mainBannerImg04 {
         top: 150px !important;
     }
+
     .mainBannerImg01 {
         right: 70px !important;
         top: 30px !important;
     }
+
     .mainBannerImg05 {
         bottom: auto !important;
         top: 0px !important;
     }
+
     .circle {
         top: -50px !important;
         left: 30px !important;
     }
+
+    
 }
 
 @media screen and (max-width: 1367px) {
+
     .FavorableRatesCardUl ul li,
     .FreeCardUl ul li {
         font-size: 0.9rem !important;
     }
+
     .dollar {
         padding: 5px 5px !important;
         font-size: 0.8rem !important;
@@ -48,6 +58,7 @@
     .nav-tabs .nav-link {
         font-size: 0.8rem;
     }
+
     .FreeCardUl ul li,
     .GuestCardUl ul li,
     .FavorableRatesCardUl ul li {
@@ -57,11 +68,13 @@
 }
 
 @media screen and (max-width: 992px) {
+
     .registrationSlide01,
     .registrationSlide02 {
         height: 100%;
         max-height: 460px;
     }
+
     .slideImg {
         position: relative;
         top: 0;
@@ -70,11 +83,13 @@
         object-fit: cover;
         object-position: center right;
     }
+
     .verticallyCenter02,
     .verticallyCenter {
         position: relative;
         top: 0px;
     }
+
     .verticallyCenter02 h3,
     .verticallyCenter02 p,
     .verticallyCenter h3,
@@ -83,87 +98,110 @@
         margin-left: 50px;
         top: -170px;
     }
+
     .slick-dots {
         max-width: 65%;
         bottom: 10px;
     }
+
     img.registrationSlidesBg {
         max-height: 520px;
         top: 0;
     }
+
     img.slideImg02 {
         top: 0;
         transform: translate(0%, 0%);
     }
+
     .formTabs {
         padding: 35px 15px;
     }
+
     .homePageImage01 {
         display: none;
     }
+
     nav.navbar.navbar-expand-lg.navbar-dark {
         background: transparent !important;
         padding: 20px 20px;
     }
+
     .navbar-dark .navbar-toggler {
         border: none;
     }
+
     .mainBannerContent h2 {
         font-size: 2rem !important;
     }
+
     .mainBannerContent p {
         font-size: 16px;
     }
+
     .HomeMainSection {
         padding: 120px 20px 100px !important;
     }
+
     .mainBannerContent .socialMediaLinks {
         display: block !important;
     }
+
     .homePageImage02 {
         display: none;
     }
+
     .favorableCard {
         background: var(--forMobileView) !important;
         padding: 60px 20px 60px !important;
     }
+
     .favorableCard h5 {
         min-height: 60px !important;
         font-size: 2rem !important;
     }
+
     .FavorableRatesCardUl ul li {
         font-size: 0.65rem !important;
     }
+
     img.aboutImg,
     .cost {
         display: none;
     }
+
     .FavorableRatesCard .p-0 {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
         padding-left: calc(var(--bs-gutter-x) * .5) !important;
     }
+
     .FreeCardUl ul,
     .GuestCardUl ul {
         color: var(--text-muted) !important;
         text-align: left;
     }
+
     .FreeCardUl ul li,
     .GuestCardUl ul li {
         margin-bottom: 30px !important;
         font-size: 0.6rem !important;
     }
+
     .amount,
     .mobileCards {
         display: block !important;
     }
+
     .favorableCard.advanced ul li {
         font-size: 1rem !important;
     }
+
     .cost.forMobileCost {
         display: block !important;
         margin-top: 10px !important;
         text-align: left !important;
     }
+
     .hoverBuyBtn {
         position: absolute;
         right: 0;
@@ -171,41 +209,50 @@
         bottom: 0;
         z-index: 9;
     }
+
     .favorableCard:hover {
         z-index: 99 !important;
     }
+
     .mobileMargin {
         margin-bottom: 15px;
     }
+
     .footerUl h5,
     .footerUl ul,
     .footerLogo p,
     .footerLogo a {
         margin-bottom: 10px !important;
     }
+
     .footerUl ul li {
         margin: 5px auto;
         border-right: 1px solid;
         padding: 0px 5px;
     }
+
     .contactUl ul {
         display: block !important;
     }
+
     .contactUl ul li {
         border: none !important;
     }
+
     nav.navbar.navbar-expand-lg.navbar-dark {
         background: rgb(47, 51, 69, 0.7) !important;
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(10px);
         transition: 1s;
     }
+
     a.nav-link:hover,
     a.nav-link.active {
         font-size: 1.1rem !important;
         padding-left: 110px !important;
         transition: 1s;
     }
+
     a.nav-link::before,
     a.nav-link.active::before {
         bottom: 0 !important;
@@ -214,62 +261,78 @@
         right: auto !important;
         height: 4px !important;
     }
+
     a.nav-link::before {
         width: 0;
     }
+
     a.nav-link.active::before {
         width: 20% !important;
     }
+
     .navbar-nav a.nav-link:hover::before {
         width: 20% !important;
     }
+
     .mobileNav {
         width: 100% !important;
     }
+
     .mobileNavButtons {
         display: flex !important;
         width: 100% !important;
         margin-top: 80px;
     }
+
     .navbar-dark .navbar-nav .nav-link {
         font-size: 1.2rem;
         line-height: 2;
     }
+
     img.loginIcon {
         max-width: 25% !important;
     }
+
     .navbar-dark .navbar-nav .nav-link {
         font-size: 1.2rem;
         line-height: 2;
     }
+
     .navbar-dark .navbar-nav .nav-link {
         color: rgba(255, 255, 255, .55);
         font-size: 1.2rem;
         line-height: 2;
     }
+
     .navbar-nav .nav-link {
         padding-right: 0;
         padding-left: 0;
     }
+
     .registerBtn {
         max-width: 120px;
         font-weight: 500;
         font-size: 1rem !important;
     }
+
     .mobileNavButtons a.nav-link:hover::before {
         width: 0 !important;
     }
+
     .mobileNavButtons a.nav-link:hover,
     .mobileNavButtons a.nav-link.active {
         font-size: 1rem !important;
         padding-left: 0px !important;
     }
+
     .SingUpNowSectionContent .col-lg-5 {
         padding: 10px !important;
     }
+
     .footerUl ul {
         display: flex !important;
     }
+
     .circle,
     .mainBannerImg05,
     .mainBannerImg01,
@@ -278,9 +341,11 @@
     .mainBannerImg03 {
         display: none;
     }
+
     .RegistrationSliderMainBg {
         display: none;
     }
+
     .HomeMainSection,
     .HomeSection04 {
         background-attachment: scroll !important;
@@ -295,23 +360,29 @@
         object-fit: cover;
         top: 0;
     }
+
     .mainBackground {
         min-height: 780px;
     }
+
     .formTabs {
         padding: 25px 15px;
     }
+
     .registrationSlide01,
     .registrationSlide02 {
         height: 100%;
         max-height: 260px;
     }
+
     img.slideImg02 {
         max-width: 190px;
     }
+
     .nav-tabs .nav-link {
         font-size: 0.8rem;
     }
+
     .verticallyCenter02 h3,
     .verticallyCenter02 p,
     .verticallyCenter h3,
@@ -319,32 +390,39 @@
         max-width: 90%;
         margin-left: auto;
     }
+
     .SingUpNowSection {
-        background-image: url('./Assets/HomePageImages/homePageImage03ForMobile.png')!important;
+        background-image: url('./Assets/HomePageImages/homePageImage03ForMobile.png') !important;
         padding: 110px 20px !important;
         margin: 40px auto 0;
         text-align: center;
         height: 100%;
         min-height: 600px;
     }
+
     .WideRange h2 {
         font-size: 2.5rem !important;
     }
+
     .WideRange h2,
     .WideRange p {
         padding-left: 0 !important;
     }
+
     .WideRange.WideRangeForMobile::before {
         background: transparent !important;
     }
+
     .HomeSection04 {
         margin-top: -150px !important;
         background-size: auto !important;
     }
+
     a.nav-link:hover,
     a.nav-link.active {
         padding-left: 60px !important;
     }
+
     .mobileNavButtons a {
         font-size: 0.8rem !important;
     }

@@ -7,7 +7,7 @@ body {
 
 .sideBar {
     background-color: var(--sideBarBackground);
-    height: 100vh;
+    height: 100%;
 }
 
 .profileCustamization button:hover,
@@ -38,4 +38,52 @@ body {
     height: 100%;
     max-height: 15px;
     object-fit: contain;
+}
+
+.game-settings-dropdown {
+    background-color: transparent !important;
+}
+
+.game-settings-dropdown .btn-primary {
+    background-color: #1F2333 !important;
+    border: 0;
+    width: 150px;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sideBar ul h6 {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.sideBar ul li {
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.sideBar ul img {
+    margin-right: 10px !important;
+}
+
+.hero-settings {
+    background: url('../.././../Assets/Settings/hero.png') no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 50px 10px;
+    color: #fff;
+}
+
+.game-setting-from-country-select {
+    padding: 18px 50px !important;
+}
+.setting-from .btn-primary:hover{
+
+}
+@media screen and (max-width: 992px) {
+    .hero-settings {
+        background-position: center;
+    }
 }
