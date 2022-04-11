@@ -17,7 +17,7 @@ const SettingForm = () => {
                 <FormLabel className='text-muted'>
                   <small>E-Mail</small>
                 </FormLabel>
-                <InputGroup className="mb-3">
+                <InputGroup className="my-3">
                   <InputGroup.Text id="basic-addon2" className='leftIcon'>
                     <img className='w-100' src={mailIcon} alt='mailIcon' />
 
@@ -34,7 +34,7 @@ const SettingForm = () => {
                 <FormLabel className='text-muted'>
                   <small>Login</small>
                 </FormLabel>
-                <InputGroup className="mb-3">
+                <InputGroup className="my-3">
                   <InputGroup.Text className='leftIcon'>
                     <img className='w-100' src={userIcon} alt='userIcon' />
                   </InputGroup.Text>
@@ -50,7 +50,7 @@ const SettingForm = () => {
                 <FormLabel className='text-muted'>
                   <small>Country</small>
                 </FormLabel>
-                <InputGroup className="mb-3">
+                <InputGroup className="my-3">
                   <InputGroup.Text className='leftIcon'>
                     <img className='w-100' src={locationIcon} alt='userIcon' />
                   </InputGroup.Text>
@@ -77,7 +77,7 @@ const SettingForm = () => {
                 <FormLabel className='text-muted'>
                   <small>In-Game Name</small>
                 </FormLabel>
-                <InputGroup className="mb-3">
+                <InputGroup className="my-3">
                   <InputGroup.Text className='leftIcon'>
                     <img className='w-100' src={userIcon} alt='userIcon' />
                   </InputGroup.Text>
@@ -93,7 +93,7 @@ const SettingForm = () => {
                 <FormLabel className='text-muted'>
                   <small>In-Game Name</small>
                 </FormLabel>
-                <InputGroup className="mb-3">
+                <InputGroup className="my-3">
                   <InputGroup.Text className='leftIcon'>
                     <img className='w-100' src={GameID} alt='userIcon' />
                   </InputGroup.Text>

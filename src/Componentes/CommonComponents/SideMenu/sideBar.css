@@ -64,6 +64,10 @@ body {
     font-size: 1rem;
 }
 
+.sideBar ul li:hover a {
+    color: #fff !important;
+}
+
 .sideBar ul img {
     margin-right: 10px !important;
 }
@@ -79,9 +83,13 @@ body {
 .game-setting-from-country-select {
     padding: 18px 50px !important;
 }
-.setting-from .btn-primary:hover{
 
+.setting-from .btn:hover {
+    background-color: #FF9900 !important;
+    border-color: #FF9900 !important;
+    box-shadow: none !important;
 }
+
 @media screen and (max-width: 992px) {
     .hero-settings {
         background-position: center;
