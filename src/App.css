@@ -1,6 +1,7 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Montserrat:wght@100&family=Rubik:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -176,4 +177,12 @@ form.form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+input.date-input {
+    background-color: transparent !important;
+    border: 0;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0px !important;
+    padding: 0 !important;
 }

@@ -1,18 +1,19 @@
 import React from 'react'
 import { FormControl, FormLabel, InputGroup } from 'react-bootstrap'
 
-const FormInput = ({ label, icon, placeholder, type }) => {
+const FormInput = ({ label, icon, placeholder, type, ...rest }) => {
   return (
     <div>
       <FormLabel className='text-muted'>
         <small>{label}</small>
       </FormLabel>
       <InputGroup className="my-3">
-        <InputGroup.Text id="basic-addon2" className='leftIcon'>
+        {icon ? <InputGroup.Text id="basic-addon2" className='leftIcon'>
           <img className='w-100' src={icon} alt='icon' />
 
-        </InputGroup.Text>
+        </InputGroup.Text> : ''}
         <FormControl
+          {...rest}
           placeholder={placeholder}
           type={`${type} ?? text`}
         />
