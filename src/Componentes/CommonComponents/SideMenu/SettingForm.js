@@ -7,9 +7,9 @@ import locationIcon from '../../../Assets/Dashboard/Icons/location.png'
 import Password from '../../tabs/RegistrationTabs/RegistrationTabsComponents/Password'
 const SettingForm = () => {
   return (
-    <Container>
+    <>
       <div className="ms-lg-5 ps-lg-5 mt-5 setting-from">
-        <Row>
+        <Row className='m-2'>
           <Col lg={5} className="">
             <h5 className='text-light'>INFO</h5>
             <div className="row">
@@ -110,7 +110,7 @@ const SettingForm = () => {
           </Col>
         </Row>
       </div>
-    </Container>
+    </>
   )
 }
 
