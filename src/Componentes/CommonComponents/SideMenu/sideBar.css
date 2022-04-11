@@ -80,6 +80,14 @@ body {
     color: #fff;
 }
 
+.hero-tournament {
+    background: url('../.././../Assets/Tournament/hero-bg.png') no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 80px 10px;
+    color: #fff;
+}
+
 .game-setting-from-country-select {
     padding: 18px 50px !important;
 }

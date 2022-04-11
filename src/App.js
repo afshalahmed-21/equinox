@@ -8,6 +8,7 @@ import ResetPassword from './Pages/ResetPassword';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Settings from './Pages/Settings';
+import Tournament from './Pages/Tournament';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App" >
       <Routes>
         <Route path="/registration" element={<Registration />} />
+        <Route path="/tournament" element={<Tournament />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/" element={<Home />} />
