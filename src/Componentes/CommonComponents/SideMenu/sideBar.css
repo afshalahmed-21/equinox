@@ -1,5 +1,4 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
-
 body {
     background-image: url('../../../Assets/Dashboard/mainBackground.png');
     background-size: cover;
@@ -9,7 +8,39 @@ body {
 
 .sideBar {
     background-color: var(--sideBarBackground);
-    height: 100%;
+    height: 100vh;
+    position: fixed;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/* width */
+
+.sideBar::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+.sideBar::-webkit-scrollbar-track {
+    background: var(--sideBarBackground);
+}
+
+
+/* Handle */
+
+.sideBar::-webkit-scrollbar-thumb {
+    background: var(--dashboardListLinkColor);
+}
+
+
+/* Handle on hover */
+
+.sideBar::-webkit-scrollbar-thumb:hover {
+    background: var(--dashboardListLinkColor);
 }
 
 .profileCustamization button:hover,
@@ -156,9 +187,19 @@ body {
     text-align: center;
 }
 
+table.rankings-table.table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
 
 @media screen and (max-width: 992px) {
-    .hero-settings, .hero-tournament {
+    .hero-settings,
+    .hero-tournament {
         background-position: center;
+    }
+    .sideBar {
+        display: none;
+        height: 100%;
+        position: relative;
     }
 }
