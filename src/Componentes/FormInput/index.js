@@ -15,7 +15,7 @@ const FormInput = ({ label, icon, placeholder, type, ...rest }) => {
         <FormControl
           {...rest}
           placeholder={placeholder}
-          type={`${type} ?? text`}
+          type={ type ?? `text`}
         />
       </InputGroup>
     </div>

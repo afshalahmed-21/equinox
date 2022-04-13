@@ -15,10 +15,8 @@ const GenerateURL = () => {
             <img src={uploadicon} />
           </span>
           <input type="text" class="form-control" placeholder="http://rsvp.wdu-design.su" aria-label="http://rsvp.wdu-design.su" aria-describedby="addon-wrapping" />
-          <span class="input-group-text p-0 m-0" id="addon-wrapping">
-            <Button className='m-0'>
-              Generate
-            </Button>
+          <span class="input-group-text bg-primary" id="addon-wrapping-g-url">
+            Generate
           </span>
         </div>
       </Card.Body>

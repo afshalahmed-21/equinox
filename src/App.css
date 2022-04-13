@@ -178,11 +178,3 @@ form.form {
     background-position: center;
     background-size: cover;
 }
-
-input.date-input {
-    background-color: transparent !important;
-    border: 0;
-    border-bottom: 1px solid #000 !important;
-    border-radius: 0px !important;
-    padding: 0 !important;
-}

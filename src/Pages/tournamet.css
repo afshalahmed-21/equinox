@@ -1,0 +1,21 @@
+.ranking-image {
+  height: 100%;
+  max-height: 350px;
+  border-radius: 20px;
+
+}
+
+
+input.date-input {
+  background-color: transparent !important;
+  border: 0 !important;
+  border-bottom: 1px solid #000 !important;
+  border-radius: 0px !important;
+  padding: 0 !important;
+}
+
+#addon-wrapping-g-url {
+  background-color: #7060FF !important;
+  color: #fff;
+  border-radius: 8px;
+}
