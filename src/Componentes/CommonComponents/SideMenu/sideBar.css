@@ -98,8 +98,12 @@ body {
     box-shadow: none !important;
 }
 
+.menuList ul li {
+    list-style-type: none;
+}
+
 @media screen and (max-width: 992px) {
-    .hero-settings {
+    .hero-settings, .hero-tournament {
         background-position: center;
     }
 }

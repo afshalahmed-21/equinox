@@ -30,7 +30,7 @@ const Tournament = () => {
               </Container>
             </div>
           </Row>
-          <div className="mt-5">
+          <div className="mt-5 m-2">
             <Row>
 
               <Col lg={5} className="m-auto">
@@ -69,7 +69,7 @@ const Tournament = () => {
                 </Row>
                 <Row>
                   <Col>
-                    <FormInput as="textarea" label="Additional Information" placeholder={"The tournament will be held at the specified time, so the whole team should be in place at exactly 10:00 in the discord channel"} />
+                    <FormInput as="textarea" label="Additional Information" placeholder={"The tournament will be held at the specified time, so the whole team should be in place at exactly 10:00 in the discord channel"} className="ad-info" rows={"4"} />
                   </Col>
                 </Row>
                 <button className="btn btn-secondary mb-4 mt-3">

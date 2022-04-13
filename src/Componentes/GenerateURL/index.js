@@ -14,7 +14,7 @@ const GenerateURL = () => {
           <span class="input-group-text" id="addon-wrapping">
             <img src={uploadicon} />
           </span>
-          <input type="text" class="form-control" placeholder="http://rsvp.wdu-design.su" aria-label="http://rsvp.wdu-design.su" aria-describedby="addon-wrapping" />
+          <input type="url" class="form-control" placeholder="http://rsvp.wdu-design.su" aria-label="http://rsvp.wdu-design.su" aria-describedby="addon-wrapping" />
           <span class="input-group-text bg-primary" id="addon-wrapping-g-url">
             Generate
           </span>
