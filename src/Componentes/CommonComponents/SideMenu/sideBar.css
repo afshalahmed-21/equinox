@@ -1,3 +1,5 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
 body {
     background-image: url('../../../Assets/Dashboard/mainBackground.png');
     background-size: cover;
@@ -88,6 +90,14 @@ body {
     color: #fff;
 }
 
+.hero-ranking {
+    background: url('../.././../Assets/Ranking/ranking_banner.png') no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 80px 10px;
+    color: #fff;
+}
+
 .game-setting-from-country-select {
     padding: 18px 50px !important;
 }
@@ -101,6 +111,51 @@ body {
 .menuList ul li {
     list-style-type: none;
 }
+
+.ranking-map button {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.ranking-map button::before {
+    content: "\f279";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.ranking-map button::after {
+    content: "" !important;
+    border: 0 !important;
+}
+
+.table tr {
+    color: #fff !important;
+}
+
+.winner-1 td:first-child {
+    background-color: #4E7CFF !important;
+    width: 5%;
+}
+
+.winner-2 td:first-child {
+    background-color: #FFCC40 !important;
+    width: 5%;
+}
+
+.winner-3 td:first-child {
+    background-color: #40C27B !important;
+    width: 5%;
+}
+
+.ranking-table-body td {
+    background-color: #1F2333;
+    padding: 15px;
+    border: 0 !important;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 992px) {
     .hero-settings, .hero-tournament {

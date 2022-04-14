@@ -9,6 +9,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Settings from './Pages/Settings';
 import Tournament from './Pages/Tournament';
+import Ranking from './Pages/Ranking';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/registration" element={<Registration />} />
         <Route path="/tournament" element={<Tournament />} />
+        <Route path="/tournament/ranking" element={<Ranking />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/" element={<Home />} />
