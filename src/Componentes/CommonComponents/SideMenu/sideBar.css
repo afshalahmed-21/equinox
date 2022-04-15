@@ -14,6 +14,7 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: scroll;
+    width: 345px;
 }
 
 
@@ -107,30 +108,38 @@ body {
 }
 
 .hero-settings {
+    margin-top: 10px;
     background: url('../.././../Assets/Settings/hero.png') no-repeat;
     background-size: cover;
-    background-position: top left;
-    padding: 80px 10px;
+    background-position: center;
+    padding: 100px 10px;
     color: #fff;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-tournament {
+    margin-top: 10px;
     background: url('../.././../Assets/Tournament/hero-bg.png') no-repeat;
-    background-size: cover;
     background-position: top left;
     padding: 80px 10px;
-    color: #fff;
+    color: #fff
 }
 
 .hero-ranking {
+    margin-top: 10px;
     background: url('../.././../Assets/Ranking/ranking_banner.png') no-repeat;
     background-size: cover;
     background-position: top left;
     padding: 80px 10px;
     color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-upload-maps {
+    margin-top: 10px;
     background: url('../.././../Assets/UploadMaps/hero.png') no-repeat;
     background-size: cover;
     background-position: top left;
@@ -205,6 +214,27 @@ body {
 table.rankings-table.table {
     border-collapse: separate;
     border-spacing: 0 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    .sideBar {
+        height: 100vh;
+        position: fixed;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 260px;
+        padding: 10px !important;
+    }
+
+    .sideBar ul img {
+        margin-right: 0 !important;
+    }
+
+    .sideBar ul li {
+        padding: 10px;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 992px) {

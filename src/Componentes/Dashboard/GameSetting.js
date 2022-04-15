@@ -5,7 +5,22 @@ import SettingForm from '../CommonComponents/SideMenu/SettingForm'
 const GameSetting = () => {
     return (
         <WithSideMenu>
-            <div className="container">
+            <Container fluid>
+                <Row>
+                    <div className="hero-settings">
+                        <div className="context-text ms-lg-5 ps-lg-5">
+                            <h2>Game Settings</h2>
+                            <p>
+                                Сonfigurare profile opus est tibi ut
+                            </p>
+                        </div>
+                    </div>
+                </Row>
+                <Row className='bg-dark'>
+                    <SettingForm />
+                </Row>
+            </Container>
+            {/* <div className="container">
                 <Row>
                     <div className="hero-settings">
                         <Container>
@@ -21,7 +36,7 @@ const GameSetting = () => {
                 <Row>
                     <SettingForm />
                 </Row>
-            </div>
+            </div> */}
         </WithSideMenu>
     )
 }

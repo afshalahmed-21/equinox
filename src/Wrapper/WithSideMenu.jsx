@@ -4,14 +4,16 @@ import SideMenu from '../Componentes/CommonComponents/SideMenu/SideMenu'
 
 const WithSideMenu = ({ children }) => {
   return (
-    <Row>
+    <div className="bg-dark">
       <Col lg={3}>
         <SideMenu />
       </Col>
-      <Col lg={9}>
-        {children}
-      </Col>
-    </Row>
+      <Row>
+        <Col lg={9} className="m-auto me-0">
+          {children}
+        </Col>
+      </Row>
+    </div>
   )
 }
 

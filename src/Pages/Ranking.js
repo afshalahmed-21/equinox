@@ -7,7 +7,7 @@ import { faArrowDown } from '@fortawesome/fontawesome-free-solid';
 const Ranking = () => {
   return (
     <WithSideMenu>
-      <Row>
+      <Row className='m-2'>
         <div className="container">
           <div className="hero-ranking">
             <div className="context-text ms-lg-5 ps-lg-5">
@@ -42,7 +42,7 @@ const Ranking = () => {
           </div>
         </div>
       </Row>
-      <Container>
+      <Container className='m-2'>
         <Row>
           <div className="col-lg-12 mt-5 m-auto">
             <h3 className='text-muted'>"FRACTURE"  Ranking</h3>
