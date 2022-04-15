@@ -240,8 +240,10 @@ table.rankings-table.table {
 @media screen and (max-width: 992px) {
 
     .hero-settings,
-    .hero-tournament {
+    .hero-tournament,
+    .hero-ranking {
         background-position: center;
+        background-size: contain;
     }
 
     .sideBar {
