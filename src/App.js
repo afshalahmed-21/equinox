@@ -10,6 +10,7 @@ import About from './Pages/About';
 import Settings from './Pages/Settings';
 import Tournament from './Pages/Tournament';
 import Ranking from './Pages/Ranking';
+import UploadMaps from './Pages/UploadMaps';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/registration" element={<Registration />} />
         <Route path="/tournament" element={<Tournament />} />
         <Route path="/tournament/ranking" element={<Ranking />} />
+        <Route path="/upload/maps" element={<UploadMaps />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/" element={<Home />} />

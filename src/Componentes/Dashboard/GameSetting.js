@@ -5,7 +5,7 @@ import SettingForm from '../CommonComponents/SideMenu/SettingForm'
 const GameSetting = () => {
     return (
         <WithSideMenu>
-            <div className="me-lg-4">
+            <div className="container">
                 <Row>
                     <div className="hero-settings">
                         <Container>

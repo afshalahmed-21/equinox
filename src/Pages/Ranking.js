@@ -8,7 +8,7 @@ const Ranking = () => {
   return (
     <WithSideMenu>
       <Row>
-        <div className="me-lg-3">
+        <div className="container">
           <div className="hero-ranking">
             <div className="context-text ms-lg-5 ps-lg-5">
               <h2>Tournament Ranking</h2>
@@ -124,7 +124,7 @@ const Ranking = () => {
                   <td>124</td>
                 </tr>
               </tbody>
-            </Table>  
+            </Table>
           </div>
         </Row>
       </Container>
