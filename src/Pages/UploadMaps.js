@@ -40,12 +40,18 @@ const UploadMaps = () => {
                     </Card>
                   </Col>
                   <Col lg={3}>
-                    <Card className='position-relative upload-map-image'>
+                    <Card className='position-relative upload-map-image'
+                      onClick={() => {
+                        document.getElementById('map-image-1').click()
+                      }}
+                    >
                       <Card.Title className="upload-images-title">
                         <img src={upload} className="mx-2" alt="" srcset="" />
                         <span className="text-light m-0 p-0">
                           Upload
                         </span>
+                        <input type="file" name="" hidden id="map-image-1" />
+
                       </Card.Title>
                     </Card>
                   </Col>
@@ -90,12 +96,18 @@ const UploadMaps = () => {
                     </Card>
                   </Col>
                   <Col lg={3}>
-                    <Card className='position-relative upload-map-image'>
+                    <Card className='position-relative upload-map-image'
+                      onClick={() => {
+                        document.getElementById('map-image-2').click()
+                      }}
+                    >
                       <Card.Title className="upload-images-title">
                         <img src={upload} className="mx-2" alt="" srcset="" />
                         <span className="text-light m-0 p-0">
                           Upload
                         </span>
+                        <input type="file" name="" hidden id="map-image-2" />
+
                       </Card.Title>
                     </Card>
                   </Col>
