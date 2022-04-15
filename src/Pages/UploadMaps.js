@@ -28,16 +28,20 @@ const UploadMaps = () => {
                     <Card className='upload-map-card position-relative'  >
                       <img src={Img1} className="w-100 p-0 m-0" />
                     </Card>
+                    <p className='text-muted my-3'>#1 (GameStart 1/4)</p>
                   </Col>
                   <Col lg={3}>
                     <Card className='upload-map-card position-relative'>
                       <img src={Img2} className="w-100 p-0 m-0" />
                     </Card>
+                    <p className='text-muted my-3'>#2 (GameStart 1/4)</p>
+
                   </Col>
                   <Col lg={3}>
                     <Card className='upload-map-card position-relative'>
                       <img src={Img3} className="w-100 p-0 m-0" />
                     </Card>
+                    <p className='text-muted my-3'>#3 (GameStart 1/4)s</p>
                   </Col>
                   <Col lg={3}>
                     <Card className='position-relative upload-map-image'
@@ -117,7 +121,7 @@ const UploadMaps = () => {
           </div>
         </Row>
       </Container>
-    </WithSideMenu>
+    </WithSideMenu >
   )
 }
 
