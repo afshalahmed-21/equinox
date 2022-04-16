@@ -237,6 +237,24 @@ table.rankings-table.table {
     }
 }
 
+.bg-dark.rounded.score-stats.dropdown>button {
+    background-color: transparent;
+    border: 0;
+    margin: auto;
+    padding-left: 50px !important;
+    width: 70%;
+}
+
+.bg-dark.rounded.score-stats.dropdown>button::after {
+    margin-left: 100%;
+}
+
+.main-c .icon-image {
+    z-index: 99;
+    top: 10px;
+    left: 20px;
+}
+
 @media screen and (max-width: 992px) {
 
     .hero-settings,
