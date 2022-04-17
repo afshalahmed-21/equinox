@@ -263,10 +263,23 @@ table.rankings-table.table {
         background-position: center;
         background-size: contain;
     }
-
+    .hero-upload-maps{
+        background-size: 100% 100%;
+        padding: 0;
+        margin: 0;
+    }
     .sideBar {
-        display: none;
         height: 100%;
+        width: 100%;
         position: relative;
+    }
+    .toggler img {
+        height: 50px;
+        max-width: 60px;
+        width: 60px;
+    }
+
+    .toggler {
+        display: block !important;
     }
 }
