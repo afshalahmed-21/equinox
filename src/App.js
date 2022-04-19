@@ -13,12 +13,15 @@ import Ranking from './Pages/Ranking';
 import UploadMaps from './Pages/UploadMaps';
 import ScoreStats from './Pages/ScoreStats';
 import UpgradeAccount from './Pages/UpgradeAccount';
+import AccountUpgrade from './Modals/AccountUpgrade';
 
 function App() {
 
   return (
     <div className="App" >
       <Routes>
+
+        <Route path="/text" element={<AccountUpgrade />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/tournament" element={<Tournament />} />
         <Route path="/tournament/ranking" element={<Ranking />} />
@@ -31,7 +34,6 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
-
     </div>
   );
 }
