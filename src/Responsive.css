@@ -38,7 +38,7 @@
         left: 30px !important;
     }
 
-    
+
 }
 
 @media screen and (max-width: 1367px) {
@@ -168,6 +168,10 @@
     img.aboutImg,
     .cost {
         display: none;
+    }
+
+    .upgrade-button {
+        
     }
 
     .FavorableRatesCard .p-0 {

@@ -12,6 +12,7 @@ import Tournament from './Pages/Tournament';
 import Ranking from './Pages/Ranking';
 import UploadMaps from './Pages/UploadMaps';
 import ScoreStats from './Pages/ScoreStats';
+import UpgradeAccount from './Pages/UpgradeAccount';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/tournament/ranking" element={<Ranking />} />
         <Route path="/upload/maps" element={<UploadMaps />} />
         <Route path="/translate/score/stats" element={<ScoreStats />} />
+        <Route path="/account/upgrade" element={<UpgradeAccount />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/" element={<Home />} />

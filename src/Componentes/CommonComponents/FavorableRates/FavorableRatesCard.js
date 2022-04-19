@@ -4,15 +4,15 @@ import cross from '../../../Assets/HomePageImages/Icons/cross.png'
 import check from '../../../Assets/HomePageImages/Icons/check.png'
 import userSelection from '../../../Assets/HomePageImages/Icons/icon04.png'
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Col, Row, Button } from 'react-bootstrap'
 
-const FavorableRatesCard = () => {
+const FavorableRatesCard = ({ showUpgradeButton, noTopImg }) => {
     return (
-        <div className='FavorableRatesCard bg-dark'>
+        <div className='FavorableRatesCard bg-dark' style={{ marginTop: noTopImg ? "0px" : '15px' }}>
             <Row>
                 <Col lg={2} className='mobileMargin p-0'>
                     <div className="favorableCard advanced">
-                        <h5 className='mb-4'>Advanced <br /> analytics</h5>
+                        <h5 className='mb-4 text-light'>Advanced <br /> analytics</h5>
                         <div className='FavorableRatesCardUl'>
                             <ul>
                                 <li>
@@ -53,7 +53,7 @@ const FavorableRatesCard = () => {
                         <div className='d-flex justify-content-center align-items-center userSelection text-muted'>
                             <img className='userSelectionImg' src={userSelection} alt="userSelectionImg" /> User Selection
                         </div>
-                        <h5 className='mb-4'>Guest</h5>
+                        <h5 className='mb-4 text-light'>Guest</h5>
                         <div className='GuestCardUl'>
                             <Row>
                                 <Col lg={6} className='col-8 mobileCards'>
@@ -130,7 +130,7 @@ const FavorableRatesCard = () => {
                         <div className='d-flex justify-content-center align-items-center userSelection text-muted'>
                             <img className='userSelectionImg' src={userSelection} alt="userSelectionImg" /> User Selection
                         </div>
-                        <h5 className='mb-4'>Free</h5>
+                        <h5 className='mb-4 text-light'>Free</h5>
                         <div className='FreeCardUl'>
                             <Row>
                                 <Col lg={6} className='col-8 mobileCards'>
@@ -207,7 +207,7 @@ const FavorableRatesCard = () => {
                         <div className='d-flex justify-content-center align-items-center userSelection text-muted'>
                             <img className='userSelectionImg' src={userSelection} alt="userSelectionImg" /> User Selection
                         </div>
-                        <h5 className='mb-4'>Exploring</h5>
+                        <h5 className='mb-4 text-light'>Exploring</h5>
                         <div className='FreeCardUl'>
                             <Row>
                                 <Col lg={6} className='col-8 mobileCards'>
@@ -284,7 +284,7 @@ const FavorableRatesCard = () => {
                         <div className='d-flex justify-content-center align-items-center userSelection text-muted'>
                             <img className='userSelectionImg' src={userSelection} alt="userSelectionImg" /> User Selection
                         </div>
-                        <h5 className='mb-4'>Serious</h5>
+                        <h5 className='mb-4 text-light'>Serious</h5>
                         <div className='FreeCardUl'>
                             <Row>
                                 <Col lg={6} className='col-8 mobileCards'>
@@ -361,7 +361,7 @@ const FavorableRatesCard = () => {
                         <div className='d-flex justify-content-center align-items-center userSelection text-muted'>
                             <img className='userSelectionImg' src={userSelection} alt="userSelectionImg" /> User Selection
                         </div>
-                        <h5 className='mb-4'>Profeccional</h5>
+                        <h5 className='mb-4 text-light'>Profeccional</h5>
                         <div className='FreeCardUl'>
                             <Row>
                                 <Col lg={6} className='col-8 mobileCards'>
@@ -424,9 +424,11 @@ const FavorableRatesCard = () => {
                                     </div>
                                 </Col>
                                 <Col lg={6} className='col-4 m-auto'>
-                                    <div className="cost forMobileCost text-light">
+                                    {showUpgradeButton ? <Button className="upgrade-button" >
+                                        45$  Upgrade
+                                    </Button> : <div className="cost forMobileCost text-light">
                                         15$
-                                    </div>
+                                    </div>}
                                 </Col>
                             </Row>
                             <button className='btn-warning w-100 text-center mt-3 hoverBuyBtn'>BUY</button>

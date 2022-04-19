@@ -119,6 +119,17 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.hero-upgrade-account {
+    margin-top: 10px;
+    background: url('../.././../Assets/UpgradeAccount/bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 10px;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: inset -10px -20px 100px rgba(0, 0, 0, 0.5);
+}
+
 .hero-tournament {
     margin-top: 10px;
     background: url('../.././../Assets/Tournament/hero-bg.png') no-repeat;
@@ -216,6 +227,45 @@ table.rankings-table.table {
     border-spacing: 0 1em;
 }
 
+.details__pain {
+    background-color: #343849;
+}
+
+.details__pain ul {
+    list-style-type: none;
+}
+
+.details__pain ul li {
+    font-size: 12px;
+    margin: 24px 5px;
+}
+
+.cost-button {
+    background-color: #3E4252 !important;
+}
+
+.non-uniques-cols {
+    background-color: #2E3244;
+}
+
+.unique-col {
+    background-color: #191C26;
+}
+
+.header-uqs-col {
+    background-color: #191C26;
+    margin-top: -60px;
+    left: 0;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.details__pain ul li p {
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (max-width: 1024px) {
     .sideBar {
         height: 100vh;
@@ -263,16 +313,19 @@ table.rankings-table.table {
         background-position: center;
         background-size: contain;
     }
-    .hero-upload-maps{
+
+    .hero-upload-maps {
         background-size: 100% 100%;
         padding: 0;
         margin: 0;
     }
+
     .sideBar {
         height: 100%;
         width: 100%;
         position: relative;
     }
+
     .toggler img {
         height: 50px;
         max-width: 60px;
