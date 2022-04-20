@@ -14,6 +14,7 @@ import UploadMaps from './Pages/UploadMaps';
 import ScoreStats from './Pages/ScoreStats';
 import UpgradeAccount from './Pages/UpgradeAccount';
 import AccountUpgrade from './Modals/AccountUpgrade';
+import ReciptModal from './Modals/ReciptModal';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
     <div className="App" >
       <Routes>
 
-        <Route path="/text" element={<AccountUpgrade />} />
+        <Route path="/upgrade" element={<AccountUpgrade />} />
+        <Route path="/recipt" element={<ReciptModal />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/tournament" element={<Tournament />} />
         <Route path="/tournament/ranking" element={<Ranking />} />
