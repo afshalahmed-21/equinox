@@ -1,5 +1,5 @@
-import React from 'react'
-import { Col, Dropdown, DropdownButton, Row } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Col, Dropdown, DropdownButton } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import profilePhoto from '../../../Assets/Dashboard/profilePhoto.png'
 import homeIcon from '../../../Assets/Dashboard/Icons/home.png'
@@ -13,11 +13,19 @@ import './sideBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Logo from '../../../Assets/logo.png'
 import { useRef } from 'react/cjs/react.development'
+import EditProfile from '../../../Modals/EditProfile'
 const SideMenu = () => {
     const { innerWidth: width } = window
+    const [show, setShow] = useState(false)
     const sideBarRef = useRef()
     const toggleMenu = () => {
         sideBarRef.current.classList.toggle('d-none')
+    }
+    const handleClose = () => {
+        setShow(false)
+    }
+    const handleOpen = () => {
+        setShow(true)
     }
     return (
         <>
@@ -31,8 +39,8 @@ const SideMenu = () => {
                 <div className="logoHeading mb-4 text-light">
                     <h3>EQUINOX</h3>
                 </div>
-                <Col lg={3} className='col-3 m-auto text-center mb-2'>
-                    <img className='w-100' src={profilePhoto} alt='profilePhoto' />
+                <Col lg={3} className='col-3 m-auto text-center mb-2' >
+                    <img className='w-100 cursor-pointer' src={profilePhoto} alt='profilePhoto' onClick={handleOpen} />
                 </Col>
 
                 <DropdownButton
@@ -113,6 +121,7 @@ const SideMenu = () => {
                 </div>
 
             </div>
+            <EditProfile show={show} handleClose={handleClose} />
         </>
     )
 }

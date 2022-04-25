@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import RegistrationSlider from '../Componentes/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
-import TabsForm from '../Componentes/AuthPagesLayout/Tabs/RegistrationTabs/TabsForm'
+import RegistrationSlider from '../Components/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
+import TabsForm from '../Components/AuthPagesLayout/Tabs/RegistrationTabs/TabsForm'
 
 const Registration = () => {
   return (

@@ -11,6 +11,10 @@
    outline: 0;
  }
 
+ .editProfilePhoto {
+   max-width: fit-content;
+ }
+
  .recipts-info span:first-child {
    color: #9A9A9A;
  }
@@ -21,4 +25,28 @@
    background-color: #152031;
    border-radius: 11.5px;
    color: #5AA3E5;
+ }
+
+ .bg-orange-c {
+   background-color: #f67605;
+   width: 30px !important;
+   height: 30px
+ }
+
+ .bg-pink-c {
+   background-color: #ED5859;
+   width: 30px !important;
+   height: 30px
+ }
+
+ .bg-blue-c {
+   background-color: #2E7FEB;
+   width: 30px !important;
+   height: 30px
+ }
+
+ .bg-purple-c {
+   background-color: #422C5A;
+   width: 30px !important;
+   height: 30px
  }

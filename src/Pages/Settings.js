@@ -1,5 +1,5 @@
 import React from 'react'
-import GameSetting from '../Componentes/Dashboard/GameSetting'
+import GameSetting from '../Components/Dashboard/GameSetting'
 
 const Settings = () => {
   return (

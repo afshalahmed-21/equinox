@@ -8,7 +8,7 @@ import Img1 from '../Assets/UploadMaps/uploadimage1.png'
 import Img2 from '../Assets/UploadMaps/uploadimage2.png'
 import Img3 from '../Assets/UploadMaps/uploadimage3.png'
 import upload from '../Assets/Dashboard/Icons/bxs-archive-in.png'
-import TranslateStats from './../Componentes/Hero/translatestats';
+import TranslateStats from './../Components/Hero/translatestats';
 const ScoreStats = () => {
   return (
     <WithSideMenu>

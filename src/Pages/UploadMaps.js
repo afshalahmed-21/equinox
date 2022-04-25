@@ -1,6 +1,6 @@
 import React from 'react'
 import WithSideMenu from './../Wrapper/WithSideMenu';
-import UploadMapsHero from './../Componentes/Hero/uploadmaps';
+import UploadMapsHero from './../Components/Hero/uploadmaps';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCamera, faPenToSquare } from '@fortawesome/free-solid-svg-icons';

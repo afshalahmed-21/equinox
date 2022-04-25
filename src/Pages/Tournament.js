@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, FormControl, FormLabel, Row } from 'react-bootstrap'
-import FormInput from './../Componentes/FormInput/index';
+import FormInput from './../Components/FormInput/index';
 import gameIcon from '../Assets/Dashboard/Icons/bx-joystick.png'
 import map from '../Assets/Dashboard/Icons/bx-map-alt.png'
-import GenerateURL from './../Componentes/GenerateURL/index';
+import GenerateURL from './../Components/GenerateURL/index';
 import clock from '../Assets/Dashboard/Icons/clock.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Report from '../Assets/Dashboard/image 9.png'

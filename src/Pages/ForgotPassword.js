@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import RegistrationSlider from '../Componentes/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
-import ForgotPasswordTab from '../Componentes/AuthPagesLayout/Tabs/RegistrationTabs/RegistrationTabsComponents/ForgotPasswordTab'
+import RegistrationSlider from '../Components/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
+import ForgotPasswordTab from '../Components/AuthPagesLayout/Tabs/RegistrationTabs/RegistrationTabsComponents/ForgotPasswordTab'
 
 const ForgotPassword = () => {
   return (

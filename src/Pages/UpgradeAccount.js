@@ -4,7 +4,7 @@ import WithSideMenu from './../Wrapper/WithSideMenu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign } from '@fortawesome/fontawesome-free-solid';
 import userselection from '../Assets/Dashboard/Icons/bxs-face-mask.png'
-import FavorableRatesCard from './../Componentes/CommonComponents/FavorableRates/FavorableRatesCard';
+import FavorableRatesCard from './../Components/CommonComponents/FavorableRates/FavorableRatesCard';
 const UpgradeAccount = () => {
   return (
     <WithSideMenu>

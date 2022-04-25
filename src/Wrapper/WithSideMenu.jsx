@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import SideMenu from '../Componentes/CommonComponents/SideMenu/SideMenu'
+import SideMenu from '../Components/CommonComponents/SideMenu/SideMenu'
 
 const WithSideMenu = ({ children }) => {
   return (

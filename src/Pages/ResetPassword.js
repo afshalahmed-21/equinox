@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import RegistrationSlider from '../Componentes/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
-import ResetPasswordTab from '../Componentes/AuthPagesLayout/Tabs/RegistrationTabs/RegistrationTabsComponents/ResetPasswordTab'
+import RegistrationSlider from '../Components/AuthPagesLayout/Sliders/RegistrationSlider/RegistrationSlider'
+import ResetPasswordTab from '../Components/AuthPagesLayout/Tabs/RegistrationTabs/RegistrationTabsComponents/ResetPasswordTab'
 
 const ResetPassword = () => {
     return (
