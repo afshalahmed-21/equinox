@@ -17,28 +17,28 @@ const ScoreStats = () => {
         <Row>
           <div className="bg-black">
             <div className="bg-dark rounded m-5">
-              <div className="inner-container p-3">
+              <div className="inner-container p-4 px-5">
                 <div className="d-flex justify-content-start align-items-center">
                   <h4 className='m-0 p-0 text-light'> FRACTURE</h4>
                   <FontAwesomeIcon className='mx-3 fw-light' color="#989898" icon={faPenToSquare} />
                   <FontAwesomeIcon className='fw-light' color="#989898" icon={faTimes} />
                 </div>
                 <Row>
-                  <Col lg={3}>
-                    <Card className='upload-map-card position-relative'  >
+                  <Col lg={3} className="p-0">
+                    <Card className='upload-map-card px-1 position-relative'  >
                       <img src={Img1} className="w-100 p-0 m-0" />
                     </Card>
                     <p className='text-muted my-3'>#1 (GameStart 1/4)</p>
                   </Col>
-                  <Col lg={3}>
-                    <Card className='upload-map-card position-relative'>
+                  <Col lg={3} className="p-0">
+                    <Card className='upload-map-card px-1 position-relative'>
                       <img src={Img2} className="w-100 p-0 m-0" />
                     </Card>
                     <p className='text-muted my-3'>#2 (GameStart 1/4)</p>
 
                   </Col>
-                  <Col lg={3}>
-                    <Card className='upload-map-card position-relative'>
+                  <Col lg={3} className="p-0">
+                    <Card className='upload-map-card px-1 position-relative'>
                       <img src={Img3} className="w-100 p-0 m-0" />
                     </Card>
                     <p className='text-muted my-3'>#3 (GameStart 1/4)s</p>
@@ -62,15 +62,15 @@ const ScoreStats = () => {
                 </Row>
               </div>
             </div>
-            <div className="bg-dark rounded m-5">
-              <div className="inner-container p-3">
+            <div className="bg-dark rounded m-5 section2">
+              <div className="inner-container p-4 px-5">
                 <div className="d-flex justify-content-start align-items-center">
                   <h4 className='m-0 p-0 text-light'> Map #2</h4>
                   <FontAwesomeIcon className='mx-3 fw-light' color="#989898" icon={faPenToSquare} />
                   <FontAwesomeIcon className='fw-light' color="#989898" icon={faTimes} />
                 </div>
                 <Row>
-                  <Col lg={3}>
+                  <Col lg={3} className="p-0 px-1">
                     <Card className='upload-map-card position-relative'>
                       <Card.Title className="upload-images-title">
                         <div className='text-center'>
@@ -80,7 +80,7 @@ const ScoreStats = () => {
                       </Card.Title>
                     </Card>
                   </Col>
-                  <Col lg={3}>
+                  <Col lg={3} className="p-0 px-1">
                     <Card className='upload-map-card position-relative'>
                       <Card.Title className="upload-images-title">
                         <div className='text-center'>
@@ -90,7 +90,7 @@ const ScoreStats = () => {
                       </Card.Title>
                     </Card>
                   </Col>
-                  <Col lg={3}>
+                  <Col lg={3} className="p-0 px-1">
                     <Card className='upload-map-card position-relative'>
                       <Card.Title className="upload-images-title">
                         <div className='text-center'>
@@ -100,7 +100,7 @@ const ScoreStats = () => {
                     </Card>
                   </Col>
                   <Col lg={3}>
-                    <Card className='position-relative upload-map-image'
+                    <Card className='position-relative upload-map-image last-child bg-transparent'
                       onClick={() => {
                         document.getElementById('map-image-2').click()
                       }}

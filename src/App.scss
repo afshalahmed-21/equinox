@@ -294,11 +294,14 @@ input.form-control:focus {
     padding-left: 60px !important;
     color: var(--white) !important;
 }
-.upload-map-card,
-.upload-map-image {
-    background-color: #42434d;
-    height: 160px;
-    max-height: 160px;
+.upload-map-card.card {
+    background-color: transparent !important;
+    border: 0;
+}
+.upload-map-image,
+.upload-map-card {
+    height: 130px;
+    max-height: 130px;
     width: 100%;
     width: 300px;
     max-width: 100%;
@@ -308,9 +311,18 @@ input.form-control:focus {
     margin-top: 20px;
     cursor: pointer;
 }
+.section2 .upload-map-card {
+    background-color: #42434d !important;
+}
+
 .upload-map-image {
     border: 1px #fff dashed;
     background-color: transparent !important;
+    height: 130px;
+    max-height: 130px;
+    width: 100%;
+    width: 300px;
+    max-width: 100%;
 }
 .upload-map-card img {
     height: 160px;
@@ -325,6 +337,6 @@ input.form-control:focus {
     color: #fffafa;
 }
 
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
 }
