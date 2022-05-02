@@ -13,7 +13,7 @@ const ScoreStats = () => {
   return (
     <WithSideMenu>
       <TranslateStats />
-      <Container fluid>
+      <Container>
         <Row>
           <div className="bg-black">
             <div className="bg-dark rounded m-5">
